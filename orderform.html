@@ -4,9 +4,28 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>PHP Demo</title>
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			/*$('input[type=submit]').on('click', function (e) {
+				debugger
+				var tireqty = $('input[name=tireqty]').val();
+				var oilqty = $('input[name=oilqty]').val();
+				var sparkqty = $('input[name=sparkqty]').val();
+				$.ajax({
+					url:'processorder.php',
+					type: 'POST',
+					data:{tireqty: tireqty, oilqty: oilqty, sparkqty: sparkqty},
+					success: function (data) {
+						console.log('success');
+					}
+				});
+			});*/
+		});
+	</script>
 </head>
 <body>
-	<form action="processorder.php" method="post">
+	<form action="processorder.php" method="post"> <!--  -->
 		<table border="0">
 			<tr bgcolor="#cccccc">
 				<td width="150">Item</td>
